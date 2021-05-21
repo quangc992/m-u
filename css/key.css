@@ -1,0 +1,278 @@
+#submitK{
+    /* background: none; */
+    background-color: transparent;
+    color: #28a745;
+    border: #28a745 solid 1px;
+    border-radius: 5px;
+    padding: 4px 10px 4px 10px;
+    height: 34px;
+    font-weight: 500;
+}
+
+#submitK:hover {
+    background: #28a745;
+    color: #ffffff;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+}
+
+#textK{
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: 480;
+    border: #28a745 solid 1px;
+    height: 34px;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main-home{
+    z-index: 5;
+}
+
+/* dialog key*/
+/* #close-dialog{ 
+    border: #dc3545 solid 1px;
+    border-radius: 5px;
+    color: #dc3545;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 3px 10px 3px 10px;
+}
+
+#close-dialog:hover{
+    border: #dc3545 solid 1px;
+    background-color: #dc3545;
+    color: #ffffff;
+    transition: ease-in 0.3s;
+}
+
+.show-dialog-scale {
+    visibility: visible;
+    transform: scale(1);
+    border: black solid 2px ;
+    border-radius: 10px;
+    padding: 15px 10px;
+    z-index: 20;
+} */
+
+
+@keyframes move-top{
+    0%{top:-1000px;}
+    100%{top:8px;}
+}
+/* .show-dialog-scale h4{
+    border-bottom: black solid 1px;
+    padding-bottom: 10px;
+    color: #dc3545;
+} */
+
+
+/* show er-web */
+/* #close-dl-er-web{
+    border: #dc3545 solid 1px;
+    border-radius: 5px;
+    color: #dc3545;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 3px 10px 3px 10px;
+}
+
+#close-dl-er-web:hover{
+    border: #dc3545 solid 1px;
+    background-color: #dc3545;
+    color: #ffffff;
+    transition: ease-in 0.3s;
+} */
+
+/* show er-git */
+/* #close-dl-er-git{
+    border: #dc3545 solid 1px;
+    border-radius: 5px;
+    color: #dc3545;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 3px 10px 3px 10px;
+}
+
+#close-dl-er-git:hover{
+    border: #dc3545 solid 1px;
+    background-color: #dc3545;
+    color: #ffffff;
+    transition: ease-in 0.3s;
+} */
+
+
+/* thong bao */
+/*key*/
+#DlKey{
+    display: block;
+    color: black;
+    position: fixed;
+    overflow: auto;/*  cuộn */
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top : 250px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    transition: ease-in 1s;
+    transition-delay: 2s;
+}
+
+.form-Dl-Key{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 85%;
+    height: auto;
+    border: red solid 0.2px;
+    border-radius: 12px;
+    transition: ease 2s;
+}
+
+
+.form-Dl-Key h4{
+    color: red;
+    border-bottom: red solid 1.5px;
+    padding-bottom: 12px;
+}
+
+#btn-close-dl-k{
+    border: #dc3545 solid 1px;
+    border-radius: 5px;
+    color: #dc3545;
+    width: auto;
+    height: auto;
+    padding: 3px 10px 3px 10px;
+    float:  right;
+    margin-top: -25px;
+}
+
+#btn-close-dl-k:hover{
+    border: #dc3545 solid 1px;
+    background-color: #dc3545;
+    color: #ffffff;
+    transition: ease 0.3s;
+}
+
+
+/*web*/
+#DL-ER-Web{
+    display: block;
+    color: black;
+    position: fixed;
+    overflow: auto;
+    /*  cuộn */
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top : 250px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    transition: ease-in 2s;
+    transition-delay: 2s;
+    
+}
+
+.form-er-Web{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 85%;
+    height: auto;
+    border: red solid 0.2px;
+    border-radius: 12px;
+    transition: ease-in 2s;
+}
+
+
+.form-er-Web h4{
+    color: red;
+    border-bottom: red solid 1.5px;
+    padding-bottom: 12px;
+}
+
+#btn-close-er-web{
+    border: #dc3545 solid 1px;
+    border-radius: 5px;
+    color: #dc3545;
+    width: auto;
+    height: auto;
+    padding: 3px 10px 3px 10px;
+    float:  right;
+    margin-top: -25px;
+}
+
+#btn-close-er-web:hover{
+    border: #dc3545 solid 1px;
+    background-color: #dc3545;
+    color: #ffffff;
+    transition: ease 0.3s;
+}
+
+
+
+/*git*/
+#DL-ER-Git{
+    display: block;
+    color: black;
+    position: fixed;
+    overflow: auto;/*  cuộn */
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    padding-top : 250px;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    
+}
+
+.form-er-Git{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    width: 85%;
+    height: auto;
+    border: red solid 0.2px;
+    border-radius: 12px;
+    transition: ease 2s;
+}
+
+
+.form-er-Git h4{
+    color: red;
+    border-bottom: red solid 1.5px;
+    padding-bottom: 12px;
+}
+
+#btn-close-er-Git{
+    border: #dc3545 solid 1px;
+    border-radius: 5px;
+    color: #dc3545;
+    width: auto;
+    height: auto;
+    padding: 3px 10px 3px 10px;
+    float:  right;
+    margin-top: -25px;
+}
+
+#btn-close-er-Git:hover{
+    border: #dc3545 solid 1px;
+    background-color: #dc3545;
+    color: #ffffff;
+    transition: ease 0.3s;
+}
